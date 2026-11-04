@@ -53,6 +53,10 @@ Edit these `#define`s in `BlindsESP32_apr16a.ino`:
 
 Mechanical note from the original build: drive wheel diameter is 30.6 mm (≈96 mm circumference), and the bead chain has 16 balls per wheel revolution.
 
+## CAD
+
+The motor mount is modelled in Tinkercad: [Blinds motor mount](https://www.tinkercad.com/things/eyJbsuSWBMM-blinds-motor-mount?sharecode=2IoUn7R2jkvfn2GjVcyLNe40DJcVV0ZCj15O-5fbk3I).
+
 ## Repository layout
 
 | File | What it is |
