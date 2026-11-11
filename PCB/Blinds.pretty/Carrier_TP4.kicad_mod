@@ -1,0 +1,59 @@
+(footprint "Carrier_TP4"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "TP4"
+		(at 3 0 0)
+		(layer "F.Fab")
+		(uuid "84c30212-6e21-453b-a492-0af597cfb12c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "5V"
+		(at -2.5 0 0)
+		(layer "F.Fab")
+		(uuid "0116ffa1-d125-4c92-b400-12b375b6491f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bc127c1-5917-4a7e-9eaf-d310d54fb22f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc0bf59d-7d1f-4240-bd45-b29176b883d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "BlindsController.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "da486a53-4866-4651-be0f-cae9adfad7cf")
+	)
+	(embedded_fonts no)
+)

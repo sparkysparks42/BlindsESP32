@@ -44,11 +44,8 @@ Released under the MIT License (see LICENSE).
 
 // Magnet (reed) sensor inputs, one per motor. Used to detect when a motor has
 // stopped turning (stall / end of travel).
-#define MAGL 12   // sensor for motor 2 (left)
+#define MAGL 32   // sensor for motor 2 (left), moved off GPIO12 for pull-up/strap safety
 #define MAGR 14   // sensor for motor 1 (right)
-// Output pins set HIGH once in setup() and left on, to supply each reed switch
-#define MAGR_POWER_PIN 13   // feeds the motor 1 (right) switch
-#define MAGL_POWER_PIN 27   // feeds the motor 2 (left) switch
 
 // motor direction (the driver always runs at full speed)
 #define BLIND_UP 1
@@ -116,11 +113,6 @@ void setup() {
 
   pinMode(MAGR,INPUT);
   pinMode(MAGL,INPUT);
-  pinMode(MAGR_POWER_PIN,OUTPUT);
-  pinMode(MAGL_POWER_PIN,OUTPUT);
-
-  digitalWrite(MAGR_POWER_PIN,HIGH);
-  digitalWrite(MAGL_POWER_PIN,HIGH);
 
   // Defined in thingProperties.h
   initProperties();

@@ -1,0 +1,20 @@
+BlindsController fabrication export - 2026-11-10
+
+Upload BlindsController-Gerbers-2026-11-10.zip to the PCB manufacturer.
+
+Board: 74.00 x 68.00 mm, measured at outline centerlines.
+Layers: 2 copper layers.
+Material/thickness: FR4, 1.6 mm (current project stackup).
+Copper: 1 oz / approximately 35 um on each copper layer.
+Solder mask: both sides. Silkscreen: files supplied for both sides.
+Surface finish and solder-mask color: select in the manufacturer's order form.
+Minimum routed track width: 0.25 mm; design clearance 0.20 mm.
+12 V supply and GND traces: 1.2 mm.
+Drills: Excellon, metric, absolute coordinates, not mirrored.
+113 plated holes (including 29 vias); 4 non-plated 2.7 mm mounting holes.
+Gerbers and drills use the same absolute coordinate origin.
+No stencil/paste or assembly files are required for this bare-board package.
+
+Final checked state: zones refilled and saved; 0 DRC violations,
+0 unconnected items, 0 schematic/PCB parity issues, 0 ERC violations.
+Check reports, source snapshot, and SHA-256 manifest are stored beside this note.

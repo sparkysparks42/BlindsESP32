@@ -1,0 +1,3 @@
+# Preserve exact bytes of the fabrication release and its checksums.
+PCB/manufacturing/** -text whitespace=cr-at-eol
+*.zip binary
