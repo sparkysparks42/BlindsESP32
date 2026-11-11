@@ -1,0 +1,24 @@
+BlindsController corrected solder-mask release - 2026-11-10
+
+USE BlindsController-Gerbers-2026-11-10-mask-fix.zip.
+This package supersedes BlindsController-Gerbers-2026-11-10.zip.
+Replace the files for the existing PCB order with this complete package.
+
+Board: 74 x 68 mm, 2 layers, 1.6 mm FR4, 1 oz / 35 um copper per side.
+Gerbers: front/back copper, front/back mask, front/back silkscreen, outline.
+Drills: separate metric absolute Excellon PTH and NPTH, not mirrored.
+Mask openings: 84 plated component pads plus four mounting holes per side.
+The corrected mask exposes solderable pads; mask covers the surrounding copper.
+
+Footprints: standard KiCad axial DIN0207 7.62 mm resistors, 2.5 mm through-hole
+test pads with 1.2 mm drills, 3 mm LED, radial capacitors, headers, Molex KK254
+connectors and mounting holes. ESP32/TB6612 modules retain corrected custom
+footprints with explicit F.Mask and B.Mask layers. All pad centers and nets
+were preserved; LED pin numbers now follow standard KiCad cathode/anode order.
+Standard resistor drills are 0.8 mm (previously 0.9 mm); TP4 now uses the same
+1.2 mm drill as the other test pads (previously 1.0 mm).
+
+Final checks: zero ERC/DRC violations, zero unconnected items and zero
+schematic/PCB parity issues. Direct mask-layer audit and Gerber opening
+counts both pass. Source snapshot and SHA256 manifest are included alongside
+this note. Original ordered release is preserved unchanged for traceability.

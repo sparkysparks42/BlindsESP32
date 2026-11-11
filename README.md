@@ -57,7 +57,7 @@ Mechanical note from the original build: drive wheel diameter is 30.6 mm (≈96 
 
 The motor mount is modelled in Tinkercad: [Blinds motor mount](https://www.tinkercad.com/things/eyJbsuSWBMM-blinds-motor-mount?sharecode=2IoUn7R2jkvfn2GjVcyLNe40DJcVV0ZCj15O-5fbk3I).
 
-The 2-layer electronics carrier and wired schematic are in the [KiCad project](PCB/BlindsController.kicad_pro), [PCB](PCB/BlindsController.kicad_pcb), and [schematic](PCB/BlindsController.kicad_sch). The board is routed with GND pours on both sides. The ordered [Gerber package](PCB/manufacturing/BlindsController-Gerbers-2026-11-10.zip), fabrication notes, and final checks are under `PCB/manufacturing/`.
+The 2-layer electronics carrier and wired schematic are in the [KiCad project](PCB/BlindsController.kicad_pro), [PCB](PCB/BlindsController.kicad_pcb), and [schematic](PCB/BlindsController.kicad_sch). The board is routed with GND pours on both sides. The corrected [Gerber package](PCB/manufacturing/BlindsController-Gerbers-2026-11-10-mask-fix.zip), fabrication notes, and final checks are under `PCB/manufacturing/`.
 
 ## Repository layout
 

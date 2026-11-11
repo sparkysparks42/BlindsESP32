@@ -1,5 +1,7 @@
 # Blinds controller KiCad design
 
+**Current fabrication package:** [corrected solder-mask ZIP](manufacturing/BlindsController-Gerbers-2026-11-10-mask-fix.zip). This supersedes the original ordered package; replace the order files with this complete export.
+
 The reviewed KiCad PCB is routed on two copper layers. The 12 V motor supply trace is 1.2 mm wide for the specified 1 A load, assuming 1 oz copper. GND traces are 1.2 mm wide; +5 V and +3.3 V supply traces are 0.6 mm wide; motor outputs are 0.6 mm. Signal traces are 0.25 mm. Vias are 0.8 mm with 0.4 mm drills.
 
 ## Changes for review
@@ -35,8 +37,12 @@ Added filled GND zones on F.Cu and B.Cu with 0.25 mm clearance and disconnected 
 
 ## Fabrication export
 
-The ordering ZIP is `manufacturing/BlindsController-Gerbers-2026-11-10.zip`. Fabrication notes, source snapshots, export hashes and final check reports are in `manufacturing/2026-11-10/`. This export was made after refilling the ground zones and passing DRC, ERC, connectivity and schematic/PCB parity checks. Board specifications: 74 x 68 mm, two copper layers, 1.6 mm FR4, 1 oz copper per side.
+The original ordered ZIP, now superseded by the mask correction, is `manufacturing/BlindsController-Gerbers-2026-11-10.zip`. Fabrication notes, source snapshots, export hashes and final check reports are in `manufacturing/2026-11-10/`. This export was made after refilling the ground zones and passing DRC, ERC, connectivity and schematic/PCB parity checks. Board specifications: 74 x 68 mm, two copper layers, 1.6 mm FR4, 1 oz copper per side.
 
 ## Version control
 
 Commit the KiCad project, schematic, board, Blinds.pretty/, Blinds.kicad_sym, and both library tables together. Release Gerbers, drill files, the ordering ZIP, check reports, source snapshots, and any BOM CSV outputs belong in Git. Local session files, locks, working backups, temporary candidates, and historical generators are ignored. No BOM CSV had been generated at the time of this initial CAD commit.
+
+## Solder-mask correction
+
+The former custom component pads omitted mask layers. All 84 plated component pads now have explicit openings on both mask layers, verified in the exported Gerbers (88 flashes per side including the four mounting holes). Standard KiCad footprints now replace the resistor, test-point and LED placeholders; the other standard component footprints reference their official library IDs. Only ESP32 and TB6612 modules remain in Blinds.pretty. LED symbol numbering was adjusted to standard pin 1 cathode / pin 2 anode while preserving physical polarity and wiring. DRC, ERC and schematic/PCB parity pass. Use the mask-fix release and its current source snapshot for manufacturing.
