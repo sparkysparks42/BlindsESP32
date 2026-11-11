@@ -1,0 +1,70 @@
+(footprint "Carrier_TP3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "TP3"
+		(at 3 0 0)
+		(layer "F.SilkS")
+		(uuid "55dc0a69-d215-4025-b7c3-08daa9bbc7d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "12V"
+		(at 0.5 2.5 0)
+		(layer "F.Fab")
+		(uuid "d991eb1c-cbb7-4b52-9c61-7cedefbfc184")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5c25c7e-c870-4261-b7f1-fb5318a99325")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bec8c4bb-81b5-46e6-b23c-aadeca20fb29")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "BlindsController.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "VM"
+		(at 0 1.15 0)
+		(layer "F.Fab")
+		(uuid "281e020e-f13d-4813-ae30-342c2ee70314")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "5e3d98d8-85a6-4ef8-9c22-be1095e56bd3")
+	)
+	(embedded_fonts no)
+)

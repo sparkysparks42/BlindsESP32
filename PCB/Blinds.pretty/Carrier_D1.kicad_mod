@@ -1,0 +1,89 @@
+(footprint "Carrier_D1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "D1"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "f02d2385-9770-4e20-a186-93ec2234cbe3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "STATLED"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "24dd76e3-24ce-473f-8afa-dea8f03eec20")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f275134-7c19-4d96-bd1a-cadf166f940c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b46480f-5669-4654-b435-26ec4095e7eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "BlindsController.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "LED+"
+		(at -1.27 1.15 0)
+		(layer "F.Fab")
+		(uuid "bf77fb79-e389-4f84-ac6e-ab70ccff9c0d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "GND"
+		(at 1.27 1.15 0)
+		(layer "F.Fab")
+		(uuid "f2245caa-27c8-4182-94dd-34b99ca01eb9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "965f42c8-af14-4ad1-b287-a183feea1a35")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.7 1.7)
+		(drill 0.9)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "c6fcb1c7-7d54-4177-a247-394157c1d535")
+	)
+	(embedded_fonts no)
+)

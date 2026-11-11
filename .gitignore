@@ -6,3 +6,33 @@ build/
 *.bin
 *.elf
 *.hex
+
+# KiCad local state, autosaves, locks and backups
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.sch-bak
+*.brd-bak
+*-backups/
+_autosave-*
+~*.lck
+*.lck
+*.bak
+*~
+.history/
+
+# Local caches and OS files
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# PCB working drafts and transient exports; keep source CAD, BOMs and releases
+/PCB/backups/
+/PCB/maintenance_archive/
+/PCB/*candidate*
+/PCB/current.net
+/PCB/preview
+/PCB/schematic_preview/
+/PCB/review/BlindsController.svg

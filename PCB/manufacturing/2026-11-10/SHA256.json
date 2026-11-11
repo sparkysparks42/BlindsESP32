@@ -1,0 +1,15 @@
+{
+  "gerbers\\BlindsController-B_Cu.gbl": "17ffa8d73313239412bad782daf4a0fa6668a8cd06b01c6e405df2db5e30c669",
+  "gerbers\\BlindsController-B_Mask.gbs": "d98bc37a024189254d5707ba8c46fc5190914aa3d24acdcfebb2b47c10a6c318",
+  "gerbers\\BlindsController-B_Silkscreen.gbo": "4de20f628d0f89eab0e1d1f4554814955dd3849f13646027b7de38da5543c13e",
+  "gerbers\\BlindsController-Edge_Cuts.gm1": "f14be7ac490bcf7e2d6cc118b691c0c9e2c45e9c90baa72584a00968ba30d725",
+  "gerbers\\BlindsController-F_Cu.gtl": "97f7084ae560d721ccc615f8216e883da4fd148d737c48018b09efb258411741",
+  "gerbers\\BlindsController-F_Mask.gts": "56068653ca9d3cf09f3edab4bb89bb8c13872b7f79e03ffe1181b9e7339f2c10",
+  "gerbers\\BlindsController-F_Silkscreen.gto": "2ac98d3d15a2db4e9779fd3f85b3da6750e01951e9da270867416faba9d633a7",
+  "gerbers\\BlindsController-job.gbrjob": "2925ea0f1e710df403f95a1d414178a60466ed23fa074006c76d40cc4936e0ae",
+  "gerbers\\BlindsController-NPTH.drl": "0f4a80c3c33e8a1b9b75d9e8d31e9fcf56478ab4242285574b14effa5034f4c8",
+  "gerbers\\BlindsController-PTH.drl": "0cf3d6a956c24d4b92b2a8454d460f01fc03e16dd6992e482acef6991649254f",
+  "source\\BlindsController.kicad_pcb": "6e040f31ec2b4047a9961288cf66c7ee4bb082990b52c1dcc7df07bbe1b161c1",
+  "source\\BlindsController.kicad_pro": "15276b8b3a82a389a6760bfa19947aca08acd148ed647ce6431b2a2396d0cc6e",
+  "source\\BlindsController.kicad_sch": "b3c7d12dae7588bef5153297f8e4dddda1fe8c230aa62a6588b7a0c557f44404"
+}
